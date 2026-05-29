@@ -1,0 +1,5 @@
+sample_id	input	filtered	denoised	merged	nonchimera
+Sample_1	500	480	470	460	455
+Sample_2	500	475	465	455	450
+Sample_3	500	483	473	463	458
+Sample_4	500	478	468	458	453

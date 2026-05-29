@@ -1,0 +1,6 @@
+#clade_name	relative_abundance
+k__Bacteria|p__Bacteroidetes	4.0796
+k__Bacteria|p__Firmicutes	43.6779
+k__Bacteria|p__Proteobacteria	23.4467
+k__Bacteria|p__Actinobacteria	26.8719
+k__Bacteria|p__Verrucomicrobia	1.9239

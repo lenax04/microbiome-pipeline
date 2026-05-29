@@ -1,0 +1,5 @@
+Sample	total_reads	passed_filter	adapter_trimmed	low_quality	q30_rate
+Sample_1	500.0	480.0	45.0	20.0	0.92
+Sample_2	500.0	475.0	42.0	25.0	0.91
+Sample_3	500.0	483.0	38.0	17.0	0.93
+Sample_4	500.0	478.0	40.0	22.0	0.92

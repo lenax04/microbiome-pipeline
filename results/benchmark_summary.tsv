@@ -1,0 +1,11 @@
+total_samples	4.0
+total_asvs	15.0
+gut_shannon_mean	2.3115203340376764
+gut_shannon_std	0.06021778644581063
+skin_shannon_mean	2.1287921410158153
+skin_shannon_std	0.07802667725976642
+within_gut_bc	0.11974789915966387
+within_skin_bc	0.16796066252587996
+between_bc_mean	0.8537562182063458
+significant_taxa	12.0
+total_taxa_tested	15.0
