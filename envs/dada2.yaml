@@ -1,0 +1,9 @@
+name: dada2
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - r-base=4.3.3
+  - bioconductor-dada2=1.30.0
+  - r-ggplot2=3.5.0

@@ -1,0 +1,5 @@
+sample_id	fastq_1	fastq_2	body_site	subject
+Sample_1	tests/data/sample1_1.fastq.gz	tests/data/sample1_2.fastq.gz	Gut	Sub1
+Sample_2	tests/data/sample2_1.fastq.gz	tests/data/sample2_2.fastq.gz	Gut	Sub2
+Sample_3	tests/data/sample3_1.fastq.gz	tests/data/sample3_2.fastq.gz	Skin	Sub1
+Sample_4	tests/data/sample4_1.fastq.gz	tests/data/sample4_2.fastq.gz	Skin	Sub2

@@ -1,0 +1,51 @@
+# MicroSnake Configuration File
+
+# Project settings
+project_name: "MicroSnake_Benchmark"
+samples_tsv: "config/samples.tsv"
+output_dir: "results"
+seed: 42
+
+# Run Modes (Enable/Disable modules)
+run_modes:
+  amplicon: true
+  shotgun: true
+
+# Quality Control Parameters
+qc:
+  threads: 2
+  fastp:
+    qualified_quality_phred: 20
+    unqualified_percent_limit: 40
+    average_qual: 20
+    length_required: 50
+
+# 16S rRNA Amplicon Parameters (DADA2 & Downstream)
+amplicon:
+  threads: 2
+  dada2:
+    truncLen_R1: 240
+    truncLen_R2: 160
+    maxEE_R1: 2
+    maxEE_R2: 2
+    truncQ: 2
+  classification:
+    # Path to reference database (SILVA or Greengenes)
+    database_path: "resources/silva_nr99_v138.1_train_set.fa.gz"
+  diversity:
+    depth: 1000  # Rarefaction depth
+    taxa_level: "Genus"
+  differential_abundance:
+    formula: "~body_site"
+    p_cutoff: 0.05
+    log2fc_cutoff: 1.0
+
+# Shotgun Metagenomics Parameters (MetaPhlAn4 & HUMAnN3)
+shotgun:
+  threads: 2
+  metaphlan:
+    database_dir: "resources/metaphlan_db"
+    index: "mpa_vJan21_CHOCOPhlAnSGB_202103"
+  humann:
+    nucleotide_db: "resources/chocophlan"
+    protein_db: "resources/uniref"

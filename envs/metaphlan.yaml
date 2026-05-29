@@ -1,0 +1,10 @@
+name: metaphlan
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - metaphlan=4.1.0
+  - humann=3.8
+  - python=3.11
+  - pandas=2.2.1

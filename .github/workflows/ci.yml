@@ -1,0 +1,36 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-python-version: "3.11"
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y fastqc fastp
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install snakemake multiqc pandas numpy matplotlib seaborn scipy scikit-learn jinja2 pytest
+
+    - name: Dry-run Snakemake Workflow
+      run: |
+        snakemake --dry-run
+
+    - name: Run Integration Tests
+      run: |
+        pytest tests/test_pipeline.py
