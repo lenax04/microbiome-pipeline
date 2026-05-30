@@ -1,11 +1,78 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use MicroSnake in your research, please cite it as below."
+type: software
+title: "MicroSnake: a reproducible Snakemake workflow for 16S rRNA amplicon and shotgun metagenomics analysis with integrated diversity and functional profiling"
+version: "1.0.0"
+date-released: "2026-05-29"
+license: MIT
+repository-code: "https://github.com/dawidx1233/microbiome-pipeline"
+url: "https://github.com/dawidx1233/microbiome-pipeline"
+abstract: >
+  MicroSnake is an open-source, reproducible Snakemake workflow for comprehensive
+  microbiome analysis. It supports both 16S rRNA amplicon and shotgun metagenomics
+  data, integrating quality control, taxonomic profiling, alpha/beta diversity
+  analysis, and functional annotation (KEGG, COG, CAZy) in a single automated pipeline.
+  The workflow generates publication-ready figures and interactive HTML reports,
+  enabling transparent and scalable microbiome research.
+keywords:
+  - microbiome
+  - 16S rRNA
+  - metagenomics
+  - Snakemake
+  - bioinformatics
+  - diversity analysis
+  - functional profiling
+  - QIIME2
+  - DADA2
+  - MetaPhlAn
 authors:
-  - family-names: "X"
+  - family-names: "Traczuk"
+    given-names: "Lena"
+    email: "lenatraczuk4@gmail.com"
+  - family-names: "Fleischer"
     given-names: "Dawid"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "MicroSnake: a reproducible Snakemake workflow for 16S rRNA amplicon and shotgun metagenomics analysis with integrated diversity and functional profiling"
-version: 1.0.0
-doi: "10.5281/zenodo.placeholder"
-date-released: 2026-05-29
-url: "https://github.com/dawidx1233/microbiome-pipeline"
+    email: "dawidfleischer6@gmail.com"
+references:
+  - type: article
+    title: "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2"
+    authors:
+      - family-names: "Bolyen"
+        given-names: "Evan"
+      - family-names: "Rideout"
+        given-names: "Jai Ram"
+      - family-names: "Dillon"
+        given-names: "Matthew R."
+    journal: "Nature Biotechnology"
+    volume: 37
+    issue: 8
+    year: 2019
+    doi: "10.1038/s41587-019-0209-9"
+  - type: article
+    title: "DADA2: High-resolution sample inference from Illumina amplicon data"
+    authors:
+      - family-names: "Callahan"
+        given-names: "Benjamin J."
+      - family-names: "McMurdie"
+        given-names: "Paul J."
+      - family-names: "Holmes"
+        given-names: "Susan P."
+    journal: "Nature Methods"
+    volume: 13
+    issue: 7
+    year: 2016
+    doi: "10.1038/nmeth.3869"
+  - type: article
+    title: "MetaPhlAn 3: enhanced taxonomic profiling of metagenomes"
+    authors:
+      - family-names: "Beghini"
+        given-names: "Francesco"
+      - family-names: "McIver"
+        given-names: "Lauren J."
+      - family-names: "Franzosa"
+        given-names: "Eric A."
+    journal: "Nature Methods"
+    volume: 18
+    issue: 2
+    year: 2021
+    doi: "10.1038/s41592-020-01039-8"
