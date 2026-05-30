@@ -1,7 +1,6 @@
 # MicroSnake: a reproducible Snakemake workflow for 16S rRNA amplicon and shotgun metagenomics analysis with integrated diversity and functional profiling
 
-**Author:** Dawid X [1]
-**Affiliation:** [1] Department of Bioinformatics, partnerbdo.pl Research Group, Warsaw, Poland
+**Author:** Lena Traczuk, Dawid Fleischer
 
 ---
 
