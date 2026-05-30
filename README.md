@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://doi.org/10.5281/zenodo.placeholder)
 
+**Authors: Lena Traczuk, Dawid Fleischer**
+
 **MicroSnake** is a complete, publication-ready bioinformatics pipeline built with **Snakemake** for reproducible microbiome data analysis. It provides a unified interface to handle both **16S rRNA amplicon sequencing** and **shotgun metagenomics** data, delivering comprehensive taxonomic profiling, functional pathway abundances, and statistical diversity analyses — all in a single, configurable workflow.
 
 This pipeline is the third project in a series of publication-quality bioinformatics tools:
@@ -129,7 +131,7 @@ If you use **MicroSnake** in your research, please cite:
 ```bibtex
 @article{X2026microsnake,
   title={MicroSnake: a reproducible Snakemake workflow for 16S rRNA amplicon and shotgun metagenomics analysis with integrated diversity and functional profiling},
-  author={X, Dawid},
+  author={Lena Traczuk, Dawid},
   journal={GigaScience},
   year={2026},
   doi={10.5281/zenodo.placeholder}
